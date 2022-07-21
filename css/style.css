@@ -1,0 +1,480 @@
+* {
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+
+body, p, a, div, h1, h2, h3, h4, h5, h6, input, button
+{
+  font-family: 'Jura', sans-serif;
+  color: #384047;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.428571429;
+}
+
+.container
+{
+    height: 100%;
+    width:  100%; 
+    background-color: whitesmoke;
+}
+.top
+{
+    color: black; 
+    background-image:  url(../images/tlo8.png);
+    max-width: 100%;
+    font-size: 18px; 
+    text-align: left;
+    height: 400px;
+    font-family: 'Jura', sans-serif;
+    
+}
+.topbar
+{
+    height:50px;
+    max-width:100%;
+    background-color: #fad668  }
+
+.header
+{  margin-top: 15px;
+  padding-top:  7px;
+    color: black; 
+    margin: 2px; 
+    font-size: 20px; 
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+    float: left;
+    font-weight: 600;
+    
+} 
+.header_login
+{ margin-top: 15px;
+  padding-top:  7px;
+    color: black; 
+    margin: 2px; 
+    font-size: 18px; 
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+    float: right;
+}
+.title
+{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+
+}
+
+.title form {
+    width: 450px;
+    margin: 15px auto 45px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+
+.title form #top-search
+{
+font-family: 'Jura', sans-serif; 
+background-color: white;
+background: url(../images/search-icon.png)  no-repeat 8px 4px/18px 18px;
+height: 22px;
+font-size: 19px;
+padding-left: 66px;
+padding-right: 15px;
+margin-top: 8px;
+margin-bottom: 8px;
+border: none;
+}
+
+label {
+font-weight: 300;
+display: inline-block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.error_info
+  {
+    color: red;
+  }
+.offer
+  {
+    
+    border-style:groove;
+    padding: 5px;
+
+  }
+.btn 
+{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  position: relative;
+}
+
+.title form .btn-search
+{
+   float: right; 
+   margin-right: 5px;
+   margin-top: 7px;
+}
+
+.btn-search {
+  height: 25px;
+  width: 110px;	
+  border: 1px solid rgb(238, 76, 65);
+  background-color: rgb(238, 76, 65);
+  color: #fff;
+}
+ 
+.center
+{ 
+    color: white;  
+    margin: 2px; 
+    font-size: 18px; 
+    text-align: center;
+    width: 1000x;
+    height: 800px;
+    font-family: 'Jura', sans-serif;
+} */
+
+#Footer
+{ 
+    color: black; 
+    background-color: whitesmoke; 
+    margin: 2px; 
+    font-size: 25px; 
+    border: 1px solid lightgray;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+} 
+.passwd{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 160px;
+    height: 1.4em;
+    white-space: nowrap;
+}
+.login{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 160px;	
+    height: 1.4em;
+    white-space: nowrap;
+}
+
+
+
+.header_toolbar-link
+{
+    
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600; 
+    color: black;
+    
+}
+
+.center
+{
+  position: relative;
+  background-color:whitesmoke;
+  height: 100%;
+}
+
+.centersign
+{
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 38px 30px 50px;
+  background-color: white;
+  height: auto;
+  height: 100%;
+}
+
+.section_heading
+{
+    text-align: center;
+    float: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+.sign_body_group
+{
+  margin-bottom: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+
+.form-login
+{
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: none;
+  height: 48px;
+  border: 1px solid #d3dde0b7;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+
+}
+
+.button-login{
+  height: 30px;
+  width: 110px;	
+  border: 1px solid rgb(238, 76, 65);
+  background-color: rgb(238, 76, 65);
+  color: #fff;
+}
+
+.form-offer
+{
+font-size: 14px;
+font-weight: 300;
+box-shadow: none;
+
+border: 1px solid #d3dde0b7;
+display: block;
+width: 100%;
+background-color: #fff;
+border-radius: 3px;
+
+}
+
+
+
+
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+.profile-userpic{
+  align-items: center;
+  align-content: center;
+}
+.profile-userpic img {
+  float: none;
+  margin-right:  570px;
+  margin-left: 570px;
+  width: 20%;
+  height: 20%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.imagebutton
+{
+float: none;
+margin-right:  570px;
+margin-left: 570px;
+width: 20%;
+height: 20%;
+-webkit-border-radius: 50% !important;
+-moz-border-radius: 50% !important;
+border-radius: 50% !important;
+outline-style: auto;
+size: auto;
+}
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+.sign_body {
+  padding: 28px 20px 50px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+
+/*  Edit profile info */ 
+/* #pic-profil {
+width: 100px;
+height: 100px;
+overflow: hidden;
+border-radius: 50%;  
+}*/
+
+.form-section {
+padding: 30px 0px 30px 0px;
+border-top: 1px solid #dee7ea;
+}
+
+
+#pic-profilecon {
+display: inline-block;
+vertical-align: -45px;
+margin-right: 20px;
+}
+
+.sign_body_group .form-control {
+width: 72%;
+display: inline-block;
+/* to do wszystkich form-control */
+font-size: 14px;
+font-weight: 300;
+transition: none;
+height: 45px;
+border: 1px solid #dee7ea;
+background-color: #fff;
+border-radius: 3px;
+
+}
+
+.form-section h3 {
+margin: 0px 0px 25px;
+font-size: 20px;
+}
+
+.sign_body_group > label {
+width: 27%;
+padding-right: 20px;
+text-align: right;
+vertical-align: middle;
+}
+.button-center {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: grey;
+}
+a
+{
+  text-decoration: none;
+}
+
+.postlink
+{
+  text-decoration: none;
+  color: red;
+}
+
+.categories
+{
+
+  display: inline-flexbox;
+  margin-block-start: 1%;
+  float: left;
+  size: 33%;
+  margin: 5px;
+  
+}
+.btn-category
+{
+  
+  height: 25px;
+  width: 125px;	
+  border: 1px solid black;
+  cursor: pointer;
+  display:block;
+}
+
+.user_info
+{
+  text-align: center;
+  
+}
